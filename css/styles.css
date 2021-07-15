@@ -1,0 +1,61 @@
+/*====================== GOOGLE FONTS ========================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.gradient {
+  background: rgb(46, 108, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(46, 108, 217, 0.9699230033810399) 52%,
+    rgba(143, 26, 238, 0.9755252442773985) 82%
+  );
+}
+
+.page-header {
+  margin-top: 4rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+
+.feature {
+    color: #fff;
+}
+
+.icon{
+    color: #fff;
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    background-color: rgb(230, 227, 227)
+}
+
+.projects img {
+    border-radius: 5%;
+}
+
+.services{
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
